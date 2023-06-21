@@ -1,0 +1,23 @@
+{
+  "name": "cypress_pom",
+  "version": "1.0.0",
+  "description": "E2E Framework Testing Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open --browser chrome --e2e",
+    "cypress:chrome": "cypress run --browser chrome --spec cypress/e2e/integration/loginSpec.cy.js",
+    "cypress:edge": "cypress run --browser edge --spec cypress/e2e/integration/loginSpec.cy.js"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework",
+    "cypress"
+  ],
+  "author": "samiakhalfi",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.14.0"
+  }
+}
